@@ -30,3 +30,14 @@ In order to test this using the Junit follow the steps
 In eclipse right click on the Junit Debug As or Run as and choose Debug Configuration / Run Configuration  
 Choose new   
 In the Environment tab add the above environment variables.  
+
+#Init
+This was built ground up using a maven archetype  
+ mvn archetype:generate -DgroupId=com.sagacstech.interview.prithvi -DartifactId=CodingExcersiseWebApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false  
+
+#Testing
+After you start the tomcat - try the following urls
+To retrive 10 students
+http://localhost:8080/codingexcerciseweb/api/students/list/10  
+To fetch a particular student using id - make sure the id exists
+http://localhost:8080/codingexcerciseweb/api/students/552ade3c96200f30ff4fed90  
