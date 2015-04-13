@@ -2,16 +2,16 @@
 All short prototypes
 
 #CodingExcersiseWebApp
-Simple CRUD web services App using the following:
-   Java 8
-   Maven -for project bootstrapping
-   Spring 4 for everything
-   Mongo DB - as a repository
-   Jongo - The Mongo DB java abstraction layer
-   Jackson/Json - All marshall and unmarshall logic
-   Jersey - For restful web services
-   Junit - For unit testing
-   Tomcat8 - Web application server
+Simple CRUD web services App using the following:  
+   Java 8  
+   Maven -for project bootstrapping  
+   Spring 4 for everything  
+   Mongo DB - as a repository  
+   Jongo - The Mongo DB java abstraction layer  
+   Jackson/Json - All marshall and unmarshall logic  
+   Jersey - For restful web services  
+   Junit - For unit testing  
+   Tomcat8 - Web application server  
    
 #Tomcat server config
 In order to externalize the mongo db parameters, I've used Tomcat parameters and also the app itself is deployed using the context. Simply edit the Tomcat server.xml and add the following entries - make sure that you change the path of the target as per your workstation
@@ -26,7 +26,7 @@ In order to externalize the mongo db parameters, I've used Tomcat parameters and
 ```
    
 #Junit testing
-In order to test this using the Junit follow the steps
-In eclipse right click on the Junit Debug As or Run as and choose Debug Configuration / Run Configuration
-Choose new 
-In the Environment tab add the above environment variables.
+In order to test this using the Junit follow the steps  
+In eclipse right click on the Junit Debug As or Run as and choose Debug Configuration / Run Configuration  
+Choose new   
+In the Environment tab add the above environment variables.  
